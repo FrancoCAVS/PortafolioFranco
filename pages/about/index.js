@@ -70,9 +70,7 @@ const aboutData = [
   },
   {
     title: "awards",
-    info: [
-     
-    ],
+    info: [],
   },
   {
     title: "experience",
@@ -242,7 +240,11 @@ const About = () => {
                   <div>{item.stage}</div>
                   <div className="flex gap-x-4">
                     {item.icons?.map((icon, itemIndex) => {
-                      return <div key={itemIndex} className="text-2xl text-white">{icon}</div>;
+                      return (
+                        <div key={itemIndex} className="text-2xl text-white">
+                          {icon}
+                        </div>
+                      );
                     })}
                   </div>
                 </div>
