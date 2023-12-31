@@ -26,7 +26,7 @@ const Home = () => {
             exit="hidden"
             className="h1"
           >
-            Computer Technician <br /> Into{" "}
+            Computer Technician <br /> Into{' '}
             <span className="text-accent">
               Cybersecurity Analyst and Programming
             </span>
@@ -39,12 +39,12 @@ const Home = () => {
             exit="hidden"
             className="max-w-sm xl:max-w-xl mx-auto xl:mx-0 mb-10 xl:mb-16"
           >
-            Hi! I'm Franco, a computer technician with a degree from the
+            Hi! I{"'"}m Franco, a computer technician with a degree from the
             Catholic University of Salta and soon-to-be Computer Engineer.
             Specializing in cybersecurity and software development, I
-            consistently add value to my work. I'm the best choice in the
+            consistently add value to my work. Im the best choice in the
             market, always seeking professional development and continuous
-            learning.{" "}
+            learning.{' '}
           </motion.p>
 
           <div className="flex justify-center xl:hidden relative">
